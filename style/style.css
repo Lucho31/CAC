@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./Images/Deposito\ madera\ 1.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: fit-content;
+    padding-top: 5vh;
+    opacity: 1;
+}
+main{
+    display: flex;
+}
+h4{
+    background-color: antiquewhite;
+
+}
+aside{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5em;
+    max-width: 20rem;
+    background-color: white;
+
+}
+aside img{
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
+}
+aside p {
+    text-align: center;
+}
+header h2{ 
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    background-color: rgb(134, 104, 2);
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 3vh;
+}
+a:link , a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: rgb(134, 104, 2);
+}
+.menu a{
+    padding-right: 1em;
+}
+.principal{
+    text-align: center;
+    background-color: white;
+    opacity: 0.95;
+    color: black;
+    width: 65vw;
+    margin-left: 3em;
+    height: fit-content;
+}
+.elem1 img {
+    margin: auto;
+    width: 50vw;
+    height: 60vh;
+}
+.maderas{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    height: 2rem;
+    background-color: rgb(134, 104, 2);
+    border-radius: 5px;
+    padding: auto;
+}
+footer h2{
+    text-align: center;
+}
